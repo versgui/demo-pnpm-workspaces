@@ -1,0 +1,21 @@
+{
+  "name": "demo-pnpm-workspace",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Lonestone",
+  "license": "private",
+  "homepage": "",
+  "engines": {
+    "node": "22",
+    "pnpm": "9"
+  },
+  "scripts": {
+    "lint": "pnpm -r lint",
+    "lint:fix": "pnpm -r lint:fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "2.6.4",
+    "eslint": "^8.50.0",
+    "typescript": "^4.9.5"
+  }
+}
